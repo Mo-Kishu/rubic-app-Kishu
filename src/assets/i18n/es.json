@@ -13,7 +13,7 @@
     "copy": "Copiar",
     "accept": "Aceptar",
     "copyright": "Derechos de autor",
-    "privacyPolicy": "Política de privacidad",
+    "privacyPolicy": "Rubic Política de privacidad",
     "close": "Cerrar",
     "send": "Enviar",
     "left": "Izquierda",
@@ -58,7 +58,7 @@
     "walletlinkWrongNetwork": "Asegúrese de que la red {{ networkToChoose }} esté seleccionada en la aplicación Coinbase. Para cambiar la red en la aplicación coinbase, vaya a la configuración en el panel inferior y seleccione la pestaña \"Red activa\".",
     "noWallet": "No has conectado ninguna billetera. Conecte su billetera para poder usar la funcionalidad del sitio.",
     "retrievingTokensError": "Error al recuperar tokens",
-    "wrongToken": "El puente Rubic solo admite el token rubic.",
+    "wrongToken": "El puente Kishu Swap X solo admite el token Kishu.",
     "oneInchQuote": "1inch error de cotización",
     "notSupportedNetwork": "{{networkToChoose}} no es compatible con el proveedor de billetera seleccionado.",
     "signReject": "Ha rechazado un inicio de sesión con su billetera. Por favor, confirme un inicio de sesión con su billetera, para utilizar completamente nuestra aplicación.",
@@ -82,7 +82,7 @@
     "multichainWallet": "Rubic aún no es compatible con billeteras de múltiples cadenas. Actualmente, solo puedes operar en la red de Ethereum",
     "unknown": "Oops, algo salió mal, por favor, inténtalo de nuevo",
     "insufficientFoundsGasPriceValue": "Insufficient funds for Gas and Network Fees. Please increase your {{nativeToken}} balance.",
-    "rubicOptimisation": "Liquidez insuficiente para este comercio. Intenta desactivar la optimización de rubic.",
+    "rubicOptimisation": "Liquidez insuficiente para este comercio. Intenta desactivar la optimización de Kishu Swap X.",
     "partialTradesData": "Nos enfrentamos al problema de obtener datos de transacciones del servidor. Por favor, vuelva a cargar la página o póngase en contacto con soporte si el problema persiste.",
     "tradingIsNotAvailable": "El comercio no está disponible",
     "wrongWallet": "Por favor, inicie sesión con una billetera que admita {{network}} network",
@@ -93,7 +93,7 @@
     "buttonLink": "Más información",
     "wrongPromoterWallet": "Ha conectado una billetera que no es compatible con Ethereum. Cierre sesión en su cuenta y conecte una billetera compatible con Ethereum (por ejemplo, MetaMask).",
     "walletNotInstalled": "La billetera no está instalada.",
-    "notWhitelistedProvider": "Desafortunadamente, este intercambio que utiliza el proveedor calculado no está disponible actualmente. Rubic volverá a calcular la ruta para su intercambio.",
+    "notWhitelistedProvider": "Desafortunadamente, este intercambio que utiliza el proveedor calculado no está disponible actualmente. Kishu Swap X volverá a calcular la ruta para su intercambio.",
     "noSelectedToken": "Seleccionar token",
     "wrongSourceNetwork": "Los intercambios de la red {{ network }} actualmente no son compatibles.\n"
   },
@@ -120,28 +120,28 @@
     "title": "Preguntas frecuentes",
     "questions": [
       {
-        "title": "¿Qué es Rubic?",
-        "answer": "Rubic es un ecosistema descentralizado multicadena, que cuenta con intercambios de múltiples cadenas, intercambios de una sola cadena y mucho más. Nuestro objetivo es ofrecer una plataforma de comercio descentralizada integral completa. La plataforma Rubic es un lugar donde los usuarios pueden completar intercambios de múltiples cadenas utilizando diferentes soluciones, donde los usuarios obtendrán las mejores tarifas de todos los protocolos de intercambio líderes (gracias a una implementación de agregador DEX), así como nuestra característica única de múltiples cadenas que brinda la oportunidad de intercambiar todos los tokens compatibles en 1 clic."
+        "title": "¿Qué es Kishu Swap X?",
+        "answer": "Kishu Swap X es una utilidad Kishu Inu, que presenta intercambios de múltiples cadenas, intercambios en cadena y mucho más. Nuestro objetivo es ofrecer una plataforma comercial descentralizada completa ONE-STOP. La plataforma Kishu Swap X es un lugar donde los usuarios pueden completar intercambios de múltiples cadenas utilizando diferentes soluciones, mientras obtienen de forma simultánea las mejores tarifas de todos los principales protocolos de intercambio (gracias a la implementación de un agregador DEX). El intercambio de múltiples cadenas nunca ha sido tan fácil, ¡y está a solo un clic de distancia!"
       },
       {
         "title": "¿Quién puede utilizar nuestro servicio?",
-        "answer": "Nuestro servicio puede ser utilizado en cualquier parte del mundo por usuarios de las criptomonedas que deseen completar operaciones en diferentes redes y completar intercambios de múltiples cadenas entre ellos. Nuestras funciones también incluyen servicios para otros proyectos: creación de puentes personalizados e integración del widget de Rubic, que permite a los usuarios completar operaciones directamente en el sitio web del servicio utilizando Rubic. \tKYC no es necesario para ninguna operación en la app.rubic.exchange"
+        "answer": "Nuestro servicio puede ser utilizado en cualquier parte del mundo por entusiastas de las criptomonedas que deseen realizar transacciones en diferentes redes y completar intercambios de múltiples cadenas. Nuestras características también incluyen servicios para otros proyectos: creación de puentes personalizados y la integración del widget Kishu Swap X Relay, que permite a los usuarios completar intercambios directamente en el sitio web del servicio utilizando Kishu Swap X. \tKYC no es necesario para ninguna operación en KishuX.Kishu.com"
       },
       {
-        "title": "¿Cómo une Rubic diferentes plataformas DEX? ",
-        "answer": "Los usuarios podrán elegir el protocolo DEX adecuado para obtener las mejores tarifas de tokens con los precios más bajos de tarifa de red. Rubic siempre analiza y compara todas las variantes, y obtiene la mejor tarifa. Tenga en cuenta que al revisar todas las alternativas, consideramos la tarifa de red. Rubic se esfuerza por ofrecer a los usuarios las mejores oportunidades de intercambio. "
+        "title": "¿Cómo une Kishu Swap X diferentes plataformas DEX? ",
+        "answer": "Los usuarios podrán elegir el protocolo DEX adecuado para obtener las mejores tarifas de tokens con los precios de gasolina más bajos. Kishu Swap X siempre analiza y compara todas las variantes y ofrece la mejor tarifa. Tenga en cuenta que al verificar todas las alternativas, consideramos la tarifa de GAS. Kishu Swap X se esfuerza por brindar a los usuarios las mejores oportunidades de intercambio."
       },
       {
         "title": "¿Por qué tenemos que elegir entre diferentes proveedores?",
-        "answer": "Las tarifas de gas y los precios de estos protocolos son diferentes, por lo tanto, la oportunidad de tener más opciones permite a los usuarios tomar mejores decisiones comerciales.\n \nMás, Rubic creó una solución de enrutamiento que permitirá a los usuarios intercambiar cualquier token en diferentes redes. Nuestro sistema de enrutamiento de creación propia para Ethereum tiene varias ventajas sobre el sistema de enrutamiento Uniswap. La principal ventaja es la capacidad de calcular los precios del gas y mostrar a los usuarios la solución mejor optimizada mientras pagan la menor cantidad de gas.\n \n uestro sistema de enrutamiento ofrece a los usuarios precios más bajos en sus swaps que la mayoría de DEXs. Los usuarios recibirán cotizaciones para precios más bajos en situaciones en las que la diferencia de precio entre diferentes resultados de intercambio cuesta más que la diferencia de precio ANTICIPADA para las comisiones del minero. Cuando esta diferencia en el precio de intercambio es mayor que la diferencia en las comisiones de los mineros, se le presentará al usuario una opción para una ruta de intercambio más barata. En situaciones en las que esto ocurra, los usuarios también tendrán una opción con una tarifa de gas más cara y una ruta más larga para ejecutar el intercambio, debido a posibles problemas de liquidez."
+        "answer": "Las tarifas de gas y las tarifas de precios de estos protocolos son diferentes, por lo que la oportunidad de tener más opciones hace que las decisiones sean mucho más simples.\n\nAdemás, Kishu Swap X creó una solución de enrutamiento que permitirá a los usuarios intercambiar cualquier token en diferentes redes. Nuestro sistema de enrutamiento de creación propia para Ethereum tiene varias ventajas sobre el sistema de enrutamiento Uniswap. La principal ventaja es la capacidad de calcular los precios de la gasolina y mostrar a los usuarios la mejor solución optimizada pagando la menor cantidad de gasolina.\n\nNuestro sistema de enrutamiento asegura a los usuarios precios más bajos que la mayoría de los DEX. Los usuarios recibirán cotizaciones de precios más bajos en situaciones en las que la diferencia de precio entre diferentes resultados de intercambio cueste más que la diferencia de precio ANTICIPADA para las tarifas de comisión del minero. Cuando esta diferencia en el precio del intercambio es mayor que la diferencia en las tarifas de comisión del minero, se le presentará al usuario una opción para una ruta de intercambio más económica. En situaciones donde esto ocurra, a los usuarios también se les dará una opción con una tarifa de gas más cara y una ruta más larga para ejecutar el canje, debido a posibles problemas de liquidez."
       },
       {
         "title": "¿ Cómo Ponerse En Contacto Con El Soporte?",
-        "answer": "Si necesita ayuda, no dude en ponerse en contacto con nuestro equipo de soporte aquí enviando un ticket en nuestro sitio web o en nuestro Telegram: <a href='https://t.me/RubicSupportBot' target = '_blank'>https://t.me/RubicSupportBot</a>\n\n Chat en vivo: Póngase en contacto con el equipo de Rubic para obtener asistencia inmediata mediante el chat. Disponible 24/7.\n \nEmail soporte - <a href='mailto:support@rubic.finanzas'>soporte@rubic.finanzas</a>. Envíe un mensaje al soporte de Rubic en cualquier momento con preguntas más complejas o técnicas. Estamos aquí para ayudar."
+        "answer": "Dado que nuestro intercambio funciona con Rubic, si necesita ayuda, no dude en ponerse en contacto con el equipo de soporte aquí enviando un ticket en el sitio web de Rubic o en su Telegram: <a href='https://t.me/RubicSupportBot' target= '_blank'>https://t.me/RubicSupportBot</a>\n\n Chat en vivo: comuníquese con el equipo de Rubic o cualquiera de ellos para obtener ayuda inmediata con el chat. Disponible 24/7.\n\nSoporte por correo electrónico: <a href='mailto:support@rubic.finance'>support@rubic.finance</a>. Envíe un mensaje a Rubic Support en cualquier momento con preguntas más complejas o técnicas. También puede optar por enviar un correo electrónico a woof@kishu.com, donde reenviaremos todos los asuntos potenciales a Rubic. Estamos aquí para ayudar."
       },
       {
-        "title": "¿Qué es el widget de relé Rubic y cómo podemos integrarlo?",
-        "answer": "El widget de Rubic es una gran solución para los problemas que enfrentan los proyectos con respecto a la baja rotación de usuarios.\neso mantiene a los usuarios en su sitio web, transformando las transacciones en una acción simple: el widget ofrece a los usuarios y propietarios de proyectos la función de comprar y vender tokens en la página web de su propio proyecto, lo que lleva a los usuarios a permanecer en su sitio web por más tiempo sin utilidad.\nEl widget también es escalable en diferentes dispositivos, y también es posible cambiar los colores y el tamaño del widget en sí.\n \nAquí hay una guía de instrucciones detallada para la integración del Relé:\n <a href='https://drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing' target='_blank'>https://drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing</a>"
+        "title": "¿Qué es el widget de relé Kishu Swap X y cómo podemos integrarlo?",
+        "answer": "Kishu Swap X Relay es una gran solución para los problemas que enfrentan los proyectos relacionados con la baja rotación de usuarios.\nMantiene a los usuarios en su sitio web, transformando los intercambios en una simple acción: Relay ofrece a los usuarios y propietarios de proyectos la función de comprar y vender tokens en su la página web de su propio proyecto, lo que hace que los usuarios permanezcan en su sitio web durante más tiempo por pura utilidad.\nEl relé también se puede escalar en diferentes dispositivos, y también es posible cambiar los colores y el tamaño del widget de relé.\n\nAquí está una guía instructiva detallada para la integración de Relay:\n <a href='https://drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing' target='_blank'>https:// drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing</a>"
       },
       {
         "title": "¿Qué debo hacer cuando veo el mensaje \"Trading no está disponible\"?",
@@ -186,8 +186,8 @@
         "id": "rpcError"
       },
       {
-        "title": "Política de reembolso de Rubic.",
-        "answer": "El equipo de Rubic completará el reembolso en tokens USDC. El importe del reembolso será igual a la cantidad de tokens en USD en el momento en que se inició la operación. el reembolso se realizará en la red de destino. \n \nPuede encontrar la información detallada sobre el sistema de reembolso automático de Rubic utilizando este enlace <a href='https://docs.rubic.finance/multi-chain-protocol/rubic-auto-refund-policy' target='_blank' rel='noopener noreferrer'>link</a>."
+        "title": "Política de reembolso de Kishu Swap X.",
+        "answer": "El equipo de Rubic completará el reembolso en tokens USDC. El monto del reembolso será igual a la cantidad de tokens en USD en el momento en que se inició la operación. el reembolso se completará en la red de destino. \n\nPuede encontrar información detallada sobre el sistema de reembolso automático de Rubic utilizando este <a href='https://docs.rubic.finance/multi-chain-protocol/rubic-auto-refund-policy' target= '_blank' rel='noopener noreferrer'>enlace</a>."
       }
     ]
   },
@@ -255,7 +255,7 @@
     "title": "Intercambiar activos en 1 clic",
     "gasFeeMessage": "Monto estimado de la tarifa de red. Será necesario proporcionar más gas en MetaMask para completar el comercio, la tarifa adicional se devolverá después de que se complete la transacción.",
     "gasFee": "Tarifa de red estimada",
-    "useOptimization": "Usar optimización de Rubic",
+    "useOptimization": "Usar optimización de Kishu Swap X",
     "notAvailableBefore": "Trading on ",
     "notAvailableAfter": " no está disponible."
   },
@@ -294,7 +294,7 @@
       },
       "2": {
         "label": "Reembolso de gas de Avalanche",
-        "description": "Para celebrar el lanzamiento del enrutamiento de Múltiples cadenas Rubic en la red de Avalanche, nuestro proyecto está iniciando una nueva Campaña de Reembolso de Gas. A partir del 19 de octubre al 2 de noviembre, nuestros usuarios podrán completar el intercambio utilizando sus tokens favoritos en la red Avalanche utilizando el Enrutamiento de Múltiples Cadenas Rubic y obtener un reembolso de la TARIFA DE RED."
+        "description": "Para celebrar el lanzamiento del enrutamiento de Múltiples cadenas Kishu Swap X en la red de Avalanche, nuestro proyecto está iniciando una nueva Campaña de Reembolso de Gas. A partir del 19 de octubre al 2 de noviembre, nuestros usuarios podrán completar el intercambio utilizando sus tokens favoritos en la red Avalanche utilizando el Enrutamiento de Múltiples Cadenas Rubic y obtener un reembolso de la TARIFA DE RED."
       }
     },
     "notifications": {
@@ -304,7 +304,7 @@
       },
       "complete": {
         "label": "El reembolso de gas se ha completado!",
-        "message": "Su reembolso de gas se ha completado! ¡Gracias por usar Rubic!"
+        "message": "Su reembolso de gas se ha completado! ¡Gracias por usar Kishu Swap X!"
       }
     }
   },
@@ -444,7 +444,7 @@
   "modals": {
     "confirmImportModal": {
       "title": "Por favor, confirme su importación!",
-      "text": "Este token no está listado en Rubic.intercambio.Al agregarlo como un token personalizado, confirma que está operando con él bajo su propio riesgo."
+      "text": "Este token no está listado en Kishu Swap X.intercambio.Al agregarlo como un token personalizado, confirma que está operando con él bajo su propio riesgo."
     },
     "bridge": {
       "receiveWarning": "Este puente consta de dos transacciones. Si inicia la transacción, no podrá cancelarla.",
@@ -478,7 +478,7 @@
       "pageSoon": "pronto.",
       "title": "¡La transacción se envió con éxito!",
       "ccrTitle": "Intercambio exitoso en la red de origen!",
-      "seeDetailsCCR": " If your transaction seems to be taking longer than normal (more than 30 minutes), please contact our Support Team at <a class='modal__footer-link' href='mailto:support@rubic.exchange' target='_blank'>support@rubic.exchange</a>",
+      "seeDetailsCCR": " If your transaction seems to be taking longer than normal (more than 30 minutes), please contact our Support Team at <a class='modal__footer-link' href='mailto:woof@kishu.com' target='_blank'>woof@kishu.com</a>",
       "seeDetailsItBridge": "Consulte transaction <a class='modal__footer-link' href ='{{explorerLink}}' target='_blank'>detalles</a>.",
       "link": "Mis operaciones"
     },
@@ -500,8 +500,8 @@
       "slippage": "Su transacción se cancelará si el precio cambia desfavorablemente por más del porcentaje ingresado (un porcentaje más bajo disminuye las posibilidades de que su transacción sea adelantada).",
       "multihopsTitle": "Desactivar saltos múltiples",
       "multihops": "Tu intercambio se completará solo con pares directos.",
-      "rubicOptimisationTitle": "Usar optimización de Rubic",
-      "rubicOptimisation": "La optimización de Rubic está habilitada de forma predeterminada. Sin embargo, puede desactivarlo para que se ejecute la ruta comercial óptima, sin tener en cuenta el costo de la tarifa.",
+      "rubicOptimisationTitle": "Usar optimización de Kishu Swap X",
+      "rubicOptimisation": "La optimización de Kishu Swap X está habilitada de forma predeterminada. Sin embargo, puede desactivarlo para que se ejecute la ruta comercial óptima, sin tener en cuenta el costo de la tarifa.",
       "deadlineTitle": "Tiempo límite de transacción",
       "deadline": "Su transacción se revertirá si está pendiente por más de este período de tiempo.",
       "autoRefreshTitle": "Actualización automática",
@@ -563,12 +563,12 @@
   },
   "banner": {
     "trading": {
-      "defaultText": "Rubic es un protocolo de intercambio de cadena múltiple que le permite intercambiar cualquiera de los 10 000 tokens en Ethereum, BSC, Polygon, Avalanche, MoonRiver y Fantom.",
+      "defaultText": "Kishu Swap X es un protocolo de intercambio de cadena múltiple que le permite intercambiar cualquiera de los 10 000 tokens en Ethereum, BSC, Polygon, Avalanche, MoonRiver y Fantom.",
       "customText": "Fantom ahora está disponible para intercambios multicadena y en una cadena.",
       "link": "¡Pruébalo hoy!"
     },
     "external": {
-      "text": "Complete a Cross-Chain swap to ETH on Arbitrum and get a free NFT. Become a part of Arbitrum Odyssey with Rubic!"
+      "text": "Complete a Cross-Chain swap to ETH on Arbitrum and get a free NFT. Become a part of Arbitrum Odyssey with Kishu Swap X!"
     },
     "zeroFees": {
       "zeroFee": "Cross-Chain Swaps with 0% Protocol Fee",
@@ -606,8 +606,12 @@
     "openMobileWallet": "Por favor, abra la aplicación de billetera móvil para firmar la transacción"
   },
   "buyTokens": {
-    "default": "Comprar RBC",
-    "custom": "Comprar FTM"
+    "default": "Comprar $KISHU",
+    "custom": "Comprar KISHU"
+  },
+  "kishuverse": {
+    "default": "Mint Kishuverse",
+    "custom": "Mint KV"
   },
   "blockchainSwap": {
     "to": "to"

@@ -51,7 +51,7 @@ app-deposits {
 
 .rules {
   &__link {
-    @include font(16px, 19px, 400, var(--main-green));
+    @include font(16px, 19px, 400, var(--main-blue));
     display: flex;
     gap: 5px;
     align-items: center;
@@ -67,11 +67,11 @@ app-deposits {
 
     ::ng-deep svg {
       path[fill='black'] {
-        fill: var(--main-green);
+        fill: var(--main-blue);
       }
 
       rect[fill='black'] {
-        fill: var(--main-green);
+        fill: var(--main-blue);
       }
     }
   }

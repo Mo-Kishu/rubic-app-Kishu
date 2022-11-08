@@ -1,10 +1,13 @@
 @use 'src/scss/vars' as *;
 
 html.dark {
-  --main-form-background: #181a19;
-  --main-background: #202622;
-  --menu-background: #000;
-  --secondary-background: rgba(50, 50, 50, 0.6);
+  --main-form-background: #3c3c3c;
+  --main-background: #1b1b1b;
+  --menu-background: #13ace9;
+  --secondary-background: #13ace9;
+  --main-glow: #13ace9;
+  --secondary-glow: #0b678b;
+  --third-glow: #8ccbe4;
 
   --form-header-color-1: rgba(94, 94, 94, 0.7);
   --form-header-color-2: rgba(69, 69, 69, 0.7);
@@ -21,7 +24,7 @@ html.dark {
   --form-bright-text-color: rgba(255, 255, 255, 0.9);
   --form-bright-reversed-text-color: rgb(0, 0, 0);
 
-  --rubic-base-01: rgb(74, 167, 85, 25%);
+  --rubic-base-01: rgba(74, 130, 167, 0.25);
   --rubic-base-02: rgb(255, 255, 255);
   --rubic-base-10: rgba(0, 0, 0, 0.35);
   --rubic-base-11: rgb(0, 0, 0, 1);
@@ -78,7 +81,7 @@ html.dark {
     background: var(--main-background);
 
     &.default-iframe-background {
-      background: linear-gradient(45deg, black, #4aa956) !important;
+      background: linear-gradient(45deg, black, #13ace9) !important;
     }
 
     .sort-by-dropdown {

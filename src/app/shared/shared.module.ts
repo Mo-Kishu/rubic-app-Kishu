@@ -56,6 +56,7 @@ import { SuccessTrxNotificationComponent } from './components/success-trx-notifi
 import { RotatingIconComponent } from './components/rotating-icon/rotating-icon.component';
 import { InfoHintComponent } from './components/info-hint/info-hint.component';
 import { BuyTokenComponent } from './components/buy-token/buy-token.component';
+import { KishuverseComponent } from './components/kishuverse/kishuverse.component';
 import { NotificationBadgeComponent } from './components/notification-badge/notification-badge.component';
 import { FalsyPipe } from './pipes/falsy.pipe';
 import { RubicContainerComponent } from './components/rubic-container/rubic-container.component';
@@ -90,6 +91,7 @@ import { AutoSlippageWarningModalComponent } from '@shared/components/via-slippa
     RotatingIconComponent,
     InfoHintComponent,
     BuyTokenComponent,
+    KishuverseComponent,
     IframeBlockchainIndicatorComponent,
     RubicContainerComponent,
     RotatingIconComponent,
@@ -180,6 +182,7 @@ import { AutoSlippageWarningModalComponent } from '@shared/components/via-slippa
     RotatingIconComponent,
     InfoHintComponent,
     BuyTokenComponent,
+    KishuverseComponent,
     NotificationBadgeComponent,
     RubicContainerComponent,
     CopyContainerComponent,

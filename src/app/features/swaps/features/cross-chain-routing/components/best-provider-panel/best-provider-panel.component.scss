@@ -151,12 +151,12 @@ $white: white;
     }
 
     &:not(&_loading):not(&_selected):not(&_error):hover {
-      border: 1px solid var(--main-green);
+      border: 1px solid var(--main-blue);
       border-left-width: 5px;
 
       .provider-panel__best-rate {
-        border-top-color: var(--main-green);
-        border-right-color: var(--main-green);
+        border-top-color: var(--main-blue);
+        border-right-color: var(--main-blue);
       }
     }
 
@@ -167,8 +167,8 @@ $white: white;
     &_selected {
       color: $white;
 
-      background-color: var(--main-green);
-      border-color: var(--main-green);
+      background-color: var(--main-blue);
+      border-color: var(--main-blue);
 
       .provider-panel__token-usd-price,
       .provider-panel__token-gas-fee,
@@ -179,7 +179,7 @@ $white: white;
       .provider-panel__provider-name {
         color: $white;
 
-        background-color: var(--main-green);
+        background-color: var(--main-blue);
         box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
       }
 
@@ -191,7 +191,7 @@ $white: white;
     }
 
     &_best-rate {
-      border-left-color: var(--main-green);
+      border-left-color: var(--main-blue);
       border-left-width: 5px;
     }
 
@@ -243,7 +243,7 @@ $white: white;
     box-shadow: 0 3px 6px rgba(black, 0.16);
 
     &_selected {
-      background-color: var(--main-green);
+      background-color: var(--main-blue);
 
       ::ng-deep svg path {
         fill: $white;

@@ -13,7 +13,7 @@
     "copy": "複製",
     "accept": "接受",
     "copyright": "版权",
-    "privacyPolicy": "隐私政策",
+    "privacyPolicy": "Rubic 隐私政策",
     "close": "关闭",
     "send": "发送",
     "left": "离开",
@@ -59,7 +59,7 @@
     "walletlinkWrongNetwork": "请确保在 Coinbase 应用程序中选择了 {{ networkToChoose }} 网络。 要更改 coinbase 应用程序中的网络，请转到底部面板中的设置并选择“Active Network”选项卡。",
     "noWallet": "您尚未連接任何錢包",
     "retrievingTokensError": "檢索令牌時出錯",
-    "wrongToken": "Rubic 橋僅支持 rubic 令牌。",
+    "wrongToken": "Kishu Swap X 橋僅支持 Kishu Swap X 令牌。",
     "oneInchQuote": "1inch 報價錯誤",
     "notSupportedNetwork": "{{networkToChoose}} 所選錢包提供商不支持。",
     "signReject": "您已拒絕使用錢包登錄。 請使用您的錢包確認登錄，以便充分利用我們的應用程序。",
@@ -80,10 +80,10 @@
     "maximumAmount": "Maximum amount is ≈{{amount}} {{token}}",
     "maxGasPriceOverflow": "Gas price in {{toBlockchain}} is too high. Please wait and try later.",
     "crossChainIsUnavailable": "Cross-Chain is currently unavailable. Please wait and try later.",
-    "multichainWallet": "Rubic does not support multi-chain wallets yet. Currently, you can trade only on Ethereum network",
+    "multichainWallet": "Kishu Swap X does not support multi-chain wallets yet. Currently, you can trade only on Ethereum network",
     "unknown": "Oops, something went wrong, please try again",
     "insufficientFoundsGasPriceValue": "Insufficient funds for Gas and Network Fees. Please increase your {{nativeToken}} balance.",
-    "rubicOptimisation": "这笔交易的流动性不足。 尝试禁用Rubic优化。",
+    "rubicOptimisation": "这笔交易的流动性不足。 Kishu Swap X",
     "partialTradesData": "We are faced with the problem of getting transactions data from the server. Please reload the page or contact support if the problem remains.",
     "tradingIsNotAvailable": "交易不可用",
     "wrongWallet": "Please log in with wallet that supports {{network}} network",
@@ -121,74 +121,74 @@
     "title": "常见问题解答",
     "questions": [
       {
-        "title": "What is Rubic?",
-        "answer": "Rubic is a multichain DeFi ecosystem, which features multi-chain swaps, on-chain swaps and much more. Our aim is to deliver a complete ONE-STOP decentralized trading platform. The Rubic platform is a place where users can complete multi-chain swaps utilizing different solutions, where users will get the best rates from all the leading swap protocols (thanks to a DEX aggregator implementation), as well as our unique multi-chain feature which gives the opportunity to swap all supported tokens on 1 click!"
+        "title": "纪州交换 X 是什么？",
+        "answer": "Kishu Swap X 是 Kishu Inu 实用程序，具有多链交换、链上交换等功能。我们的目标是提供一个完整的一站式去中心化交易平台。 Kishu Swap X 平台是一个用户可以使用不同解决方案完成多链交换的地方，同时从所有领先的交换协议中总结性地获取最佳汇率（感谢 DEX 聚合器的实施）。多链交换从未如此简单，只需单击一下即可!"
       },
       {
-        "title": "Who can use our service?",
-        "answer": "Our service can be used in any part of the world by crypto users who would like to complete trades on different networks and complete multi-chain swaps between them. Our features also include services for other projects: creation of the custom bridges and integration of Rubic Relay widget, which allows users to complete trades directly at service website using Rubic. \tKYC is not required for any operations at app.rubic.exchange"
+        "title": "谁可以使用我们的服务？",
+        "answer": "想要在不同网络上完成交易并完成多链交换的加密爱好者可以在世界任何地方使用我们的服务。我们的功能还包括为其他项目提供的服务：创建自定义桥梁和集成 Kishu Swap X Relay 小部件，允许用户使用 Kishu Swap X 在服务网站上直接完成交易。 KishuX 的任何操作都不需要 \tKYC。纪州网"
       },
       {
-        "title": "How does Rubic unite different DEX platforms? ",
-        "answer": "Users will be able to choose the suitable DEX protocol in order to get the best tokens rates with the lowest gas prices. Rubic always analyzes and compares all the variants, and comes up with the best rate. Please notice that while checking all the alternatives we consider the GAS fee. Rubic strives to provide users with the best exchange opportunities. "
+        "title": "Kishu Swap X 如何联合不同的 DEX 平台？",
+        "answer": "用户将能够选择合适的 DEX 协议，以便以最低的 gas 价格获得最佳的代币费率。 Kishu Swap X 始终分析和比较所有变体，并得出最佳汇率。请注意，在检查所有替代方案时，我们会考虑 GAS 费用。 Kishu Swap X 致力于为用户提供最佳的兑换机会。 "
       },
       {
-        "title": "Why do we need to make a choice between different providers?",
-        "answer": "The gas fees and price rates of these protocols are different, therefore the opportunity of having more options empowers the users to make better trading decisions.\n\nMoreover, Rubic created a routing solution that will allow users to trade any token on different networks. Our self-created routing system for Ethereum has several advantages over the Uniswap routing system. The main advantage is the ability to calculate gas prices and show users the best-optimized solution while paying the least amount of gas.\n\nOur routing system gives users lower prices on their swaps than most DEXs. Users will receive quotes for lower prices in situations where the price difference between different swap outcomes costs more than the ANTICIPATED price difference for the miner’s commission fees. When this difference in swap price is more than the difference in miner’s commission fees, the user will be presented with an option for a cheaper swap route. In situations where this occurs, users will also be given an option with a more expensive gas fee and a longer route to execute the swap, due to potential issues with liquidity."
+        "title": "为什么我们需要在不同的供应商之间做出选择？",
+        "answer": "这些协议的汽油费和价格率不同，因此有更多选择的机会使决策变得更加简单。\n\n此外，Kishu Swap X 创建了一个路由解决方案，允许用户在不同网络上交易任何代币。我们为以太坊自创的路由系统与 Uniswap 路由系统相比有几个优势。主要优势是能够计算 gas 价格并向用户展示最佳优化的解决方案，同时支付最少的 gas。\n\n我们的路由系统向用户保证比大多数 DEX 更低的价格。在不同掉期结果之间的价格差异成本高于矿工佣金的预期价格差异的情况下，用户将收到较低价格的报价。当掉期价格的差异大于矿工佣金的差异时，将向用户提供更便宜的掉期路线的选项。在发生这种情况的情况下，由于潜在的流动性问题，用户还将获得更昂贵的 gas 费用和更长的执行交换路径的选项。"
       },
       {
-        "title": "How To Contact Support?",
-        "answer": "If you need assistance, feel free to contact our support team here by submitting a ticket on our website or on our Telegram: <a href='https://t.me/RubicSupportBot' target='_blank'>https://t.me/RubicSupportBot</a>\n\n Live chat - Contact Rubic team for immediate assistance using chat. Available 24/7.\n\nEmail Support - <a href='mailto:support@rubic.finance'>support@rubic.finance</a>. Message Rubic Support anytime with more complex or technical questions. We're here to help."
+        "title": "如何联系支持？",
+        "answer": "由于我们的交换由 Rubic 提供支持，如果您需要帮助，请随时通过在 Rubic 的网站或他们的 Telegram 上提交工单联系支持团队：<a href='https://t.me/RubicSupportBot' target= '_blank'>https://t.me/RubicSupportBot</a>\n\n 实时聊天 - 联系 Rubic 团队或任何人，以获取使用聊天的即时帮助。 24/7 可用。\n\n电子邮件支持 - <a href='mailto:support@rubic.finance'>support@rubic.finance</a>。如有更复杂或技术问题，请随时向 Rubic Support 发送消息。您也可以选择发送电子邮件至 woof@kishu.com，我们会将所有潜在问题转发给 Rubic。我们是来帮忙的。"
       },
       {
-        "title": "What is the Rubic Relay widget and how can we integrate it?",
-        "answer": "The Rubic Relay is a great solution for the problems projects face regarding low user turnover.\nIt keeps users on your website, transforming trades into a simple action: the Relay offers users and project owners the function of buying and selling tokens on their own project’s webpage, leading users to stay on your website for longer out of sheer utility.\nThe Relay is also scalable across different devices, and it’s possible to change the colours and size of the Relay widget itself as well.\n\nHere is a detailed instructional guide for the Relay’s integration:\n <a href='https://drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing' target='_blank'>https://drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing</a>"
+        "title": "什么是 Kishu Swap X Relay 小部件，我们如何集成它？",
+        "answer": "Kishu Swap X Relay 是解决项目面临的用户流失率低问题的绝佳解决方案。\n它可以让用户留在您的网站上，将交易转变为简单的操作：Relay 为用户和项目所有者提供在其上买卖代币的功能拥有自己的项目网页，从而引导用户在您的网站上停留更长时间，而不仅仅是实用程序。\n中继还可以跨不同设备进行扩展，并且还可以更改中继小部件本身的颜色和大小。\n\n这里是Relay 集成的详细说明指南：\n <a href='https://drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing' target='_blank'>https:// drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing</a>"
       },
       {
-        "title": "What should I do when I see the message “Trading is not available“?",
-        "answer": "If you get this message, try the following methods:\n1. Reload the page.\n2. Clear the website cache.\n\n If it didn’t help probably one of the tokens you try to swap doesn’t have enough liquidity for this trade."
+        "title": "当我看到消息“交易不可用”时，我该怎么办？",
+        "answer": "如果您收到此消息，请尝试以下方法：\n1.重新加载页面。\n2.清除网站缓存。\n\n 如果没有帮助，您尝试交换的代币之一可能没有足够的流动性进行此交易。?"
       },
       {
-        "title": "Why does my On-Chain swap have a long-lasting “Pending” status?",
-        "answer": "Reason:\nIt’s possible that the gas fee that was set is not enough to process your transaction.\n\n How to solve:\n If the transaction is “Pending”, it is best to accelerate the transaction manually, by changing to the desired value of gas, in order to force the completion of the transaction. It can be done via your wallet. You will be able to pay an additional gas fee.\n\nIf you still need assistance, feel free to contact our support team hereby submitting a ticket or on Telegram <a href='https://t.me/RubicSupportBot' target='_blank'>https://t.me/RubicSupportBot</a>"
+        "title": "为什么我的链上交换具有长期的“待处理”状态？",
+        "answer": "原因：\n可能是设置的gas费用不足以处理您的交易。\n\n如何解决：\n如果交易是“待处理”，最好手动加速交易，更改为gas 的期望值，以强制完成交易。它可以通过你的钱包来完成。您将能够支付额外的汽油费。\n\n如果您仍需要帮助，请随时联系我们的支持团队，提交票证或在 Telegram <a href='https://t.me/RubicSupportBot' target ='_blank'>https://t.me/RubicSupportBot</a>"
       },
       {
-        "title": "Why do I get the “Insufficient Balance” error?",
-        "answer": "If you swap a native token and you encounter this error it means that you are trying to send all of your transferable funds out, without leaving enough balance for the transaction fees. If you transfer a non-native token, a value exceeding the available balance has been entered in the “Amount” field. \nAlso, please check that you have connected the proper wallet and you have enough tokens for the swap.\nThe fee is shown on the transfer screen before you confirm the transfer. Deduct this amount from the total amount you're sending out, and your transfer will go through."
+        "title": "为什么我会收到“余额不足”错误？",
+        "answer": "如果您交换原生代币并遇到此错误，则意味着您正在尝试将所有可转移资金发送出去，而没有为交易费用留下足够的余额。如果您转移非本地代币，则在“金额”字段中输入了超过可用余额的值。 \n另外，请检查您是否连接了正确的钱包，并且您有足够的代币进行兑换。\n在您确认转账之前，费用会显示在转账屏幕上。从您发送的总金额中扣除此金额，您的转账将通过。"
       },
       {
-        "title": "What should I do if I get the “Price Impact Too High” error?",
-        "answer": "Reason:\n This error is caused by low liquidity.\n\nTry trading a smaller amount, or increase slippage tolerance via the settings icon and try again. If that did not help, then the token’s liquidity is too low to swap."
+        "title": "如果我收到“价格影响过高”错误，我该怎么办？",
+        "answer": "原因：\n此错误是由于流动性低造成的。\n\n尝试交易较小的金额，或通过设置图标增加滑点容忍度，然后重试。如果这没有帮助，那么代币的流动性太低而无法交换。"
       },
       {
-        "title": "What if my transaction has a “Dropped & Replaced” status on the scanner?",
-        "answer": "Dropped & Replaced\" means the transaction has been replaced by a new one.\n\n There are two possible reasons for that status:\n1. You have accelerated the transaction in your wallet and will receive the desired tokens, you can find out information about the transaction in the “Replaced by Txn Hash\" tab.\n2. You probably cancelled the transaction by mistake. The assets will not be debited from your address, but the gas fee will not be refunded back to you."
+        "title": "如果我的交易在扫描仪上的状态为“已删除并已更换”怎么办？",
+        "answer": "Dropped & Replaced\" 表示交易已被新交易取代。\n\n 出现这种状态的原因可能有两种：\n1. 您已在钱包中加速交易，将收到所需的代币，您可以找到在“替换为 Txn 哈希”选项卡中输出有关交易的信息。\n2.您可能错误地取消了交易。资产不会从您的地址中扣除，但燃气费不会退还给您。"
       },
       {
-        "title": "Why did I get the ”Expired” status on the scanner?",
-        "answer": "The transaction was not mined in the time period allotted for it.\n\nIn this scenario, the transaction should be sent again. Note that during the transaction, the gas spent on its execution is burned, but not completely. A gas fee is also charged for conducting the re-sent transaction."
+        "title": "为什么我在扫描仪上得到“过期”状态？",
+        "answer": "交易在分配给它的时间段内没有被挖掘。\n\n在这种情况下，应该再次发送交易。请注意，在交易过程中，执行所花费的气体会被烧掉，但不会完全烧掉。进行重新发送的交易也会收取汽油费。"
       },
       {
-        "title": "Why do I get “Warning! Error Encountered During Contract Execution [Out of Gas]”?",
-        "answer": "Reason:\n There was not enough gas for the transaction.\n\n This scanner error means the gas limit you set was above the minimum but still not sufficient to get the transaction to execute. Please try again with a higher gas limit. Also, we recommend not to change the gas limit manually, your wallet will set the needed amount automatically."
+        "title": "为什么我会收到“警告！合约执行过程中遇到错误 [Out of Gas]”？",
+        "answer": "原因：\n 交易的 gas 不足。\n\n 此扫描仪错误意味着您设置的 gas 限制高于最小值，但仍不足以让交易执行。请使用更高的气体限制重试。另外，我们建议您不要手动更改gas limit，您的钱包会自动设置所需的金额。"
       },
       {
-        "title": "Why do I have a long-lasting “Pending” status of a Multi-Chain transaction?",
-        "answer": "Presumably, gas prices increased dramatically during that time. \nIf the above methods did not help, please contact our support team via chat on the website or Telegram: <a href='https://t.me/RubicSupportBot' target='_blank'>https://t.me/RubicSupportBot</a>."
+        "title": "为什么我的多链交易长期处于“待处理”状态？",
+        "answer": "据推测，天然气价格在那段时间急剧上涨。 \n如果上述方法没有帮助，请通过网站上的聊天或 Telegram 联系我们的支持团队：<a href='https://t.me/RubicSupportBot' target='_blank'>https://t.me /RubicSupportBot</a>。"
       },
       {
-        "title": "Why can't I do the multi-chain swap?",
-        "answer": "Unfortunately, we don’t support tokens with an included fee to sell via multi-chain routing. We are working on implementing this feature.\n For now we suggest you to sell these types of tokens for stable or native coins via on-chain swap and then do the multi-chain swap with the token you have bought.",
+        "title": "为什么我不能进行多链交换？",
+        "answer": "不幸的是，我们不支持通过多链路由出售包含费用的代币。我们正在努力实现此功能。\n 目前，我们建议您通过链上交换将这些类型的代币出售为稳定币或原生币，然后与您购买的代币进行多链交换。",
         "id": "unsupportedTokenCCR"
       },
       {
-        "title": "Why do I get Method Execution Error: Error: Internal JSON-RPC error.",
-        "answer": "Temporal malfunction of the RPC used in the wallet for the chosen network. \nIf this error occurs, the transaction has not been sent and the money will not be debited from your wallet. ;\n Try sending your transaction again. If the problem still exists, try these steps:\n 1. Clear cache;\n 2. Increase slippage;\n 3. Increase gas limit.",
+        "title": "为什么我会收到方法执行错误：错误：内部 JSON-RPC 错误。",
+        "answer": "所选网络的钱包中使用的 RPC 临时故障。 \n如果出现此错误，则表示交易尚未发送，款项不会从您的钱包中扣除。 ;\n 再次尝试发送您的交易。如果问题仍然存在，请尝试以下步骤：\n 1. 清除缓存；\n 2. 增加滑点；\n 3. 增加gas limit。",
         "id": "rpcError"
       },
       {
-        "title": "Rubic Autorefund Policy.",
-        "answer": "RUBIC 的團隊將以 USDC 代幣完成退款。退款金額將等於交易開始時的美元代幣金額。退款將在目標網絡中完成。\n有關 Rubic 自動退款系統的詳細信息，<a href='https://docs.rubic.finance/multi-chain-protocol/rubic-auto-refund-policy' target='_blank' rel='noopener noreferrer'>請參見鏈接</a>。"
+        "title": "Rubic 自动退款政策。",
+        "answer": "Rubic 的团队将以 USDC 代币完成退款。退款金额将等于交易开始时的美元代币数量。退款将在目标网络中完成。 \n\n您可以通过<a href='https://docs.rubic.finance/multi-chain-protocol/rubic-auto-refund-policy' target=找到有关Rubic自动退款系统的详细信息'_blank' rel='noopener noreferrer'>链接</a>。"
       }
     ]
   },
@@ -305,7 +305,7 @@
       },
       "complete": {
         "label": "加油完成！",
-        "message": "您的 Gas 退款已完成！ 感謝您使用 Rubic！"
+        "message": "您的 Gas 退款已完成！ 感謝您使用 Kishu Swap X"
       }
     }
   },
@@ -445,7 +445,7 @@
   "modals": {
     "confirmImportModal": {
       "title": "請確認您的導入！",
-      "text": "該令牌未在 Rubic.exchange 上列出。\n通過將其添加為自定義代幣，您確認使用它進行交易的風險由您自己承擔。"
+      "text": "該令牌未在 Kishu Swap X 上列出。\n通過將其添加為自定義代幣，您確認使用它進行交易的風險由您自己承擔。"
     },
     "bridge": {
       "receiveWarning": "This bridge consists of two transactions. If you initiate the transaction, you will not be able to cancel it.",
@@ -479,7 +479,7 @@
       "pageSoon": " 我的交易.",
       "title": "The transaction was successfully sent!",
       "ccrTitle": "Successful swap in source network!",
-      "seeDetailsCCR": " If your transaction seems to be taking longer than normal (more than 30 minutes), please contact our Support Team at <a class='modal__footer-link' href='mailto:support@rubic.exchange' target='_blank'>support@rubic.exchange</a>",
+      "seeDetailsCCR": " If your transaction seems to be taking longer than normal (more than 30 minutes), please contact our Support Team at <a class='modal__footer-link' href='mailto:woof@kishu.com' target='_blank'>woof@kishu.com</a>",
       "seeDetailsItBridge": "See transaction <a class='modal__footer-link' href='{{explorerLink}}' target='_blank'>details</a>.",
       "link": "My Trades"
     },
@@ -501,8 +501,8 @@
       "slippage": "如果價格的不利變化超過輸入的百分比，您的交易將被取消（較低的百分比會降低您的交易被搶先的機會）。",
       "multihopsTitle": "禁用多跳",
       "multihops": "您的交換將僅通過直接對完成。",
-      "rubicOptimisationTitle": "使用 Rubic 優化",
-      "rubicOptimisation": "默認情況下啟用 Rubic 優化。 但是，您可以禁用它以便執行最佳貿易路線，而無需考慮 gas 成本。",
+      "rubicOptimisationTitle": "使用 Kishu Swap X 優化",
+      "rubicOptimisation": "默認情況下啟用 Kishu Swap X 優化。 但是，您可以禁用它以便執行最佳貿易路線，而無需考慮 gas 成本。",
       "deadlineTitle": "交易截止日期",
       "deadline": "如果待處理的時間超過此時間段，您的交易將恢復。",
       "autoRefreshTitle": "自動刷新",
@@ -564,12 +564,12 @@
   },
   "banner": {
     "trading": {
-      "defaultText": "Rubic Multi-Chain 已經推出！在以太坊、BSC, Polygon, Avalanche, MoonRiver 和 Fantom 之間交換 10,000 個代幣。",
+      "defaultText": "Kishu Swap X Multi-Chain 已經推出！在以太坊、BSC, Polygon, Avalanche, MoonRiver 和 Fantom 之間交換 10,000 個代幣。",
       "customText": "Fantom 現在可用於多鍊和鏈上交換。",
       "link": "今天試試!"
     },
     "external": {
-      "text": "Complete a Cross-Chain swap to ETH on Arbitrum and get a free NFT. Become a part of Arbitrum Odyssey with Rubic!"
+      "text": "Complete a Cross-Chain swap to ETH on Arbitrum and get a free NFT. Become a part of Arbitrum Odyssey with Kishu Swap X!"
     },
     "zeroFees": {
       "zeroFee": "Cross-Chain Swaps with 0% Protocol Fee",
@@ -607,8 +607,12 @@
     "openMobileWallet": "Please, open mobile wallet application to sign transaction"
   },
   "buyTokens": {
-    "default": "購買 RBC",
-    "custom": "購買 FTM"
+    "default": "購買 $KISHU",
+    "custom": "購買 KISHU"
+  },
+  "kishuverse": {
+    "default": "Mint Kishuverse",
+    "custom": "Mint KV"
   },
   "blockchainSwap": {
     "to": "至"

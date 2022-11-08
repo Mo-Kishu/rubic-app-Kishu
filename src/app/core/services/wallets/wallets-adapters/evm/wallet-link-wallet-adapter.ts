@@ -51,7 +51,7 @@ export class WalletLinkWalletAdapter extends EvmWalletAdapter<WalletLinkProvider
 
     const defaultWalletParams: WalletLinkOptions = {
       appName: 'Rubic',
-      appLogoUrl: 'https://rubic.exchange/assets/images/rubic-logo.svg',
+      appLogoUrl: 'https://rubic.exchange/assets/images/kishu-logo.svg',
       darkMode: false
     };
     const walletLink = new WalletLink(defaultWalletParams);

@@ -63,15 +63,15 @@
     border-radius: 156px;
 
     &:hover {
-      color: var(--main-green);
+      color: var(--main-blue);
 
       ::ng-deep svg {
         path[fill='black'] {
-          fill: var(--main-green);
+          fill: var(--main-blue);
         }
 
         rect[fill='black'] {
-          fill: var(--main-green);
+          fill: var(--main-blue);
         }
       }
     }

@@ -63,7 +63,9 @@ export class SettingsListComponent {
         title: 'settings.header.tutorials.title',
         description: 'settings.header.tutorials.desc',
         component: new PolymorpheusComponent(TutorialsComponent),
-        action: this.navigateExternalLink.bind(null, ['https://www.youtube.com/c/RubicExchange']),
+        action: this.navigateExternalLink.bind(null, [
+          'https://www.youtube.com/channel/UCBp7_9zm3yCnkT1JK76zF9A'
+        ]),
         arrow: true
       }
     ];

@@ -100,7 +100,7 @@
   }
 
   &__profile {
-    grid-gap: 25px;
+    grid-gap: 0px;
 
     @include iframe {
       grid-gap: 0;
@@ -113,7 +113,7 @@
 
   &__logo {
     display: block;
-    margin-right: 40px;
+    margin-right: 20px;
 
     @include iframe-vertical {
       margin-right: auto;
@@ -146,8 +146,13 @@
 
   &__buy-token {
     flex-shrink: 0;
-    margin: 0 25px;
+    margin: 0 15px;
   }
+
+  // &__kishuverse {
+  //   flex-shrink: 0;
+  //   margin: 0 25px;
+  // }
 }
 
 .notification-counter {
@@ -158,7 +163,7 @@
   &[data-tui-host-status='default'] {
     color: white;
 
-    background-color: var(--main-green);
+    background-color: var(--main-blue);
   }
 
   &[data-tui-host-padding='m'][data-tui-host-size='s'] {
@@ -208,7 +213,24 @@
       margin-left: 15px;
     }
 
+    &__kishuverse {
+      margin-right: 15px;
+      margin-left: 15px;
+    }
+
     ::ng-deep &__buy-token {
+      button[tuiButton][data-tui-host-size=l] {
+        height: 40px;
+
+        font-size: 14px;
+
+        .wrapper {
+          padding: 0 20px !important;
+        }
+      }
+    }
+
+    ::ng-deep &__kishuverse {
       button[tuiButton][data-tui-host-size=l] {
         height: 40px;
 

@@ -258,7 +258,7 @@
   }
 
   ::ng-deep {
-    --tui-primary-active: #4aa956;
+    --tui-primary-active: #13ace9;
 
     .wrapper {
       height: 6px;
@@ -297,7 +297,7 @@
 
 .rules {
   &__link {
-    @include font(16px, 19px, 400, var(--main-green));
+    @include font(16px, 19px, 400, var(--main-blue));
     display: flex;
     gap: 5px;
     align-items: center;
@@ -313,11 +313,11 @@
 
     ::ng-deep svg {
       path[fill='black'] {
-        fill: var(--main-green);
+        fill: var(--main-blue);
       }
 
       rect[fill='black'] {
-        fill: var(--main-green);
+        fill: var(--main-blue);
       }
     }
   }

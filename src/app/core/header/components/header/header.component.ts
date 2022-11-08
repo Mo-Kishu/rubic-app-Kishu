@@ -31,9 +31,12 @@ import BigNumber from 'bignumber.js';
 import { takeUntil } from 'rxjs/operators';
 import { TuiDestroyService } from '@taiga-ui/cdk';
 import { BuyTokenComponent } from '@shared/components/buy-token/buy-token.component';
+import { KishuverseComponent } from '@shared/components/kishuverse/kishuverse.component';
 import { HeaderStore } from '../../services/header.store';
 import { GoogleTagManagerService } from '@core/services/google-tag-manager/google-tag-manager.service';
 import { TokensService } from '@core/services/tokens/tokens.service';
+import { ThemeService } from 'src/app/core/services/theme/theme.service';
+import { map } from 'rxjs/operators';
 
 @Component({
   selector: 'app-header',
@@ -46,6 +49,8 @@ export class HeaderComponent implements AfterViewInit {
   @ViewChild('headerPage') public headerPage: TemplateRef<unknown>;
 
   @ViewChild(BuyTokenComponent) public buyTokenComponent: BuyTokenComponent;
+
+  @ViewChild(KishuverseComponent) public KishuverseComponent: KishuverseComponent;
 
   /**
    * Rubic advertisement type. Renders different components based on type.
@@ -63,6 +68,8 @@ export class HeaderComponent implements AfterViewInit {
   public readonly swapType$: Observable<SWAP_PROVIDER_TYPE>;
 
   public isSettingsOpened = false;
+
+  public readonly isDark$: Observable<boolean>;
 
   public get noFrameLink(): string {
     return `${this.window.origin}${this.queryParamsService.noFrameLink}`;
@@ -89,8 +96,10 @@ export class HeaderComponent implements AfterViewInit {
     @Inject(DOCUMENT) private readonly document: Document,
     @Self() private readonly destroy$: TuiDestroyService,
     private readonly gtmService: GoogleTagManagerService,
-    private readonly zone: NgZone
+    private readonly zone: NgZone,
+    private readonly themeService: ThemeService
   ) {
+    this.isDark$ = this.themeService.theme$.pipe(map(theme => theme === 'dark'));
     this.advertisementType = 'default';
     this.currentUser$ = this.authService.currentUser$;
     this.isMobileMenuOpened$ = this.headerStore.getMobileMenuOpeningStatus();

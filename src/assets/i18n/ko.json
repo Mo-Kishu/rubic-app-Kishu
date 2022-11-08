@@ -13,7 +13,7 @@
     "copy": "부",
     "accept": "동의하기",
     "copyright": "저작권",
-    "privacyPolicy": "개인 정보 정책",
+    "privacyPolicy": "Rubic 개인 정보 정책",
     "close": "닫기",
     "send": "보내다",
     "left": "왼쪽",
@@ -80,7 +80,7 @@
     "maximumAmount": "Maximum amount is ≈{{amount}} {{token}}",
     "maxGasPriceOverflow": "Gas price in {{toBlockchain}} is too high. Please wait and try later.",
     "crossChainIsUnavailable": "Cross-Chain is currently unavailable. Please wait and try later.",
-    "multichainWallet": "Rubic does not support multi-chain wallets yet. Currently, you can trade only on Ethereum network",
+    "multichainWallet": "Kishu Swap X does not support multi-chain wallets yet. Currently, you can trade only on Ethereum network",
     "unknown": "Oops, something went wrong, please try again",
     "insufficientFoundsGasPriceValue": "Insufficient funds for Gas and Network Fees. Please increase your {{nativeToken}} balance.",
     "rubicOptimisation": "이 거래에 대한 유동성이 충분하지 않습니다. 루빅 최적화를 비활성화하십시오.",
@@ -94,7 +94,7 @@
     "buttonLink": "더 알아보기",
     "wrongPromoterWallet": "이더리움과 이더리움이 호환되지 않습니다. 이더리움과 호환이 가능합니다(예: MetaMask).",
     "walletNotInstalled": "지갑이 설치되지 않았습니다",
-    "notWhitelistedProvider": "유감스럽게도 계산된 공급자를 사용하는 이 스왑은 현재 사용할 수 없습니다. Rubic은 스왑 경로를 다시 계산합니다.",
+    "notWhitelistedProvider": "유감스럽게도 계산된 공급자를 사용하는 이 스왑은 현재 사용할 수 없습니다. Kishu Swap X 스왑 경로를 다시 계산합니다.",
     "noSelectedToken": "토큰 선택",
     "wrongSourceNetwork": "{{ network }} 네트워크의 스왑은 현재 지원되지 않습니다."
   },
@@ -121,74 +121,74 @@
     "title": "FAQ",
     "questions": [
       {
-        "title": "What is Rubic?",
-        "answer": "Rubic is a multichain DeFi ecosystem, which features multi-chain swaps, on-chain swaps and much more. Our aim is to deliver a complete ONE-STOP decentralized trading platform. The Rubic platform is a place where users can complete multi-chain swaps utilizing different solutions, where users will get the best rates from all the leading swap protocols (thanks to a DEX aggregator implementation), as well as our unique multi-chain feature which gives the opportunity to swap all supported tokens on 1 click!"
+        "title": "기슈 스왑 X는 무엇입니까?",
+        "answer": "Kishu Swap X는 멀티체인 스왑, 온체인 스왑 등을 제공하는 Kishu Inu 유틸리티입니다. 우리의 목표는 완전한 ONE-STOP 분산 거래 플랫폼을 제공하는 것입니다. Kishu Swap X 플랫폼은 사용자가 다양한 솔루션을 사용하여 다중 체인 스왑을 완료하는 동시에 모든 주요 스왑 프로토콜(DEX 애그리게이터 구현 덕분에)에서 최상의 비율을 종합적으로 가져올 수 있는 곳입니다. 다중 체인 스와핑이 그 어느 때보다 쉬워졌으며 단 한 번의 클릭으로 가능합니다!"
       },
       {
-        "title": "Who can use our service?",
-        "answer": "Our service can be used in any part of the world by crypto users who would like to complete trades on different networks and complete multi-chain swaps between them. Our features also include services for other projects: creation of the custom bridges and integration of Rubic Relay widget, which allows users to complete trades directly at service website using Rubic. \tKYC is not required for any operations at app.rubic.exchange"
+        "title": "누가 우리 서비스를 사용할 수 있습니까?",
+        "answer": "우리 서비스는 다른 네트워크에서 거래를 완료하고 다중 체인 스왑을 완료하려는 암호화 애호가가 세계 어느 곳에서나 사용할 수 있습니다. 우리의 기능에는 사용자 지정 브리지 생성 및 Kishu Swap X를 사용하여 서비스 웹사이트에서 직접 거래를 완료할 수 있는 Kishu Swap X Relay 위젯의 통합과 같은 다른 프로젝트를 위한 서비스도 포함됩니다. \tKYC는 KishuX의 모든 작업에 필요하지 않습니다. KishuX.Kishu.com"
       },
       {
-        "title": "How does Rubic unite different DEX platforms? ",
-        "answer": "Users will be able to choose the suitable DEX protocol in order to get the best tokens rates with the lowest gas prices. Rubic always analyzes and compares all the variants, and comes up with the best rate. Please notice that while checking all the alternatives we consider the GAS fee. Rubic strives to provide users with the best exchange opportunities. "
+        "title": "Kishu Swap X는 다른 DEX 플랫폼을 어떻게 통합합니까?",
+        "answer": "사용자는 가장 낮은 가스 가격으로 최고의 토큰 요금을 얻기 위해 적합한 DEX 프로토콜을 선택할 수 있습니다. Kishu Swap X는 항상 모든 변종을 분석하고 비교하여 최고의 비율을 제시합니다. 모든 대안을 확인하는 동안 GAS 수수료를 고려한다는 점에 유의하십시오. Kishu Swap X는 사용자에게 최고의 교환 기회를 제공하기 위해 노력합니다."
       },
       {
-        "title": "Why do we need to make a choice between different providers?",
-        "answer": "The gas fees and price rates of these protocols are different, therefore the opportunity of having more options empowers the users to make better trading decisions.\n\nMoreover, Rubic created a routing solution that will allow users to trade any token on different networks. Our self-created routing system for Ethereum has several advantages over the Uniswap routing system. The main advantage is the ability to calculate gas prices and show users the best-optimized solution while paying the least amount of gas.\n\nOur routing system gives users lower prices on their swaps than most DEXs. Users will receive quotes for lower prices in situations where the price difference between different swap outcomes costs more than the ANTICIPATED price difference for the miner’s commission fees. When this difference in swap price is more than the difference in miner’s commission fees, the user will be presented with an option for a cheaper swap route. In situations where this occurs, users will also be given an option with a more expensive gas fee and a longer route to execute the swap, due to potential issues with liquidity."
+        "title": "왜 우리는 다른 제공자 사이에서 선택을 해야 합니까?",
+        "answer": "이러한 프로토콜의 가스 요금과 가격은 다르기 때문에 더 많은 옵션을 가질 수 있는 기회는 훨씬 더 간단하게 결정을 내릴 수 있습니다.\n\n또한 Kishu Swap X는 사용자가 다른 네트워크에서 모든 토큰을 거래할 수 있는 라우팅 솔루션을 만들었습니다. 자체 제작한 이더리움 라우팅 시스템은 Uniswap 라우팅 시스템에 비해 몇 가지 장점이 있습니다. 가장 큰 장점은 가스 가격을 계산하고 사용자에게 가장 적은 양의 가스를 지불하면서 가장 최적화된 솔루션을 보여줄 수 있다는 것입니다.\n\n우리의 라우팅 시스템은 사용자에게 대부분의 DEX보다 저렴한 가격을 보장합니다. 사용자는 서로 다른 스왑 결과 간의 가격 차이가 채굴자의 수수료에 대한 예상 가격 차이보다 더 많은 상황에서 더 낮은 가격에 대한 견적을 받게 됩니다. 이 스왑 가격의 차이가 채굴자의 수수료 차이보다 클 경우 사용자는 더 저렴한 스왑 경로를 선택할 수 있습니다. 이러한 상황이 발생하면 유동성 문제로 인해 사용자에게 더 비싼 가스 요금과 스왑 실행 경로가 더 긴 옵션이 제공됩니다."
       },
       {
-        "title": "How To Contact Support?",
-        "answer": "If you need assistance, feel free to contact our support team here by submitting a ticket on our website or on our Telegram: <a href='https://t.me/RubicSupportBot' target='_blank'>https://t.me/RubicSupportBot</a>\n\n Live chat - Contact Rubic team for immediate assistance using chat. Available 24/7.\n\nEmail Support - <a href='mailto:support@rubic.finance'>support@rubic.finance</a>. Message Rubic Support anytime with more complex or technical questions. We're here to help."
+        "title": "지원팀에 문의하는 방법은 무엇입니까?",
+        "answer": "스왑은 Rubic에서 제공하므로 도움이 필요하면 Rubic 웹사이트 또는 Telegram: <a href='https://t.me/RubicSupportBot' target=에서 티켓을 제출하여 지원 팀에 언제든지 문의하십시오. '_blank'>https://t.me/RubicSupportBot</a>\n\n 실시간 채팅 - 채팅을 사용하여 즉각적인 지원을 받으려면 Rubic 팀이나 아무 곳에나 문의하세요. 연중무휴.\n\n이메일 지원 - <a href='mailto:support@rubic.finance'>support@rubic.finance</a>. 더 복잡하거나 기술적인 질문이 있는 경우 언제든지 Rubic 지원에 메시지를 보내주십시오. 또한 Woof@kishu.com으로 이메일을 보내도록 선택할 수 있습니다. 여기에서 모든 잠재적 문제를 Rubic에 전달할 것입니다. 도와드리겠습니다."
       },
       {
-        "title": "What is the Rubic Relay widget and how can we integrate it?",
-        "answer": "The Rubic Relay is a great solution for the problems projects face regarding low user turnover.\nIt keeps users on your website, transforming trades into a simple action: the Relay offers users and project owners the function of buying and selling tokens on their own project’s webpage, leading users to stay on your website for longer out of sheer utility.\nThe Relay is also scalable across different devices, and it’s possible to change the colours and size of the Relay widget itself as well.\n\nHere is a detailed instructional guide for the Relay’s integration:\n <a href='https://drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing' target='_blank'>https://drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing</a>"
+        "title": "Kishu Swap X Relay 위젯은 무엇이며 어떻게 통합할 수 있습니까?",
+        "answer": "Kishu Swap X Relay는 낮은 사용자 회전율과 관련하여 프로젝트가 직면한 문제에 대한 훌륭한 솔루션입니다.\n사용자를 웹사이트에 머물게 하고 거래를 간단한 작업으로 전환합니다. Relay는 사용자와 프로젝트 소유자에게 토큰을 사고 팔 수 있는 기능을 제공합니다. 자체 프로젝트의 웹페이지를 통해 사용자가 웹사이트에 더 오래 머물도록 유도합니다.\nRelay는 또한 다양한 기기에서 확장할 수 있으며 Relay 위젯 자체의 색상과 크기도 변경할 수 있습니다.\n\n여기 릴레이 통합에 대한 자세한 지침:\n <a href='https://drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing' target='_blank'>https:// drive.google.com/file/d/1ULxjzN3sVc2indb5-_PtR7v7jui_tCJ7/view?usp=sharing</a>"
       },
       {
-        "title": "What should I do when I see the message “Trading is not available“?",
-        "answer": "If you get this message, try the following methods:\n1. Reload the page.\n2. Clear the website cache.\n\n If it didn’t help probably one of the tokens you try to swap doesn’t have enough liquidity for this trade."
+        "title": "거래할 수 없습니다 라는 메시지가 표시되면 어떻게 해야 합니까?",
+        "answer": "이 메시지가 나타나면 다음 방법을 시도하십시오.\n1. 페이지를 새로고침하세요.\n2. 웹사이트 캐시를 삭제하세요.\n\n 도움이 되지 않았다면 교환하려는 토큰 중 하나에 이 거래를 위한 충분한 유동성이 없을 것입니다."
       },
       {
-        "title": "Why does my On-Chain swap have a long-lasting “Pending” status?",
-        "answer": "Reason:\nIt’s possible that the gas fee that was set is not enough to process your transaction.\n\n How to solve:\n If the transaction is “Pending”, it is best to accelerate the transaction manually, by changing to the desired value of gas, in order to force the completion of the transaction. It can be done via your wallet. You will be able to pay an additional gas fee.\n\nIf you still need assistance, feel free to contact our support team hereby submitting a ticket or on Telegram <a href='https://t.me/RubicSupportBot' target='_blank'>https://t.me/RubicSupportBot</a>"
+        "title": "내 온체인 스왑이 오래 지속되는 보류 중 상태인 이유는 무엇입니까?",
+        "answer": "이유:\n설정된 가스 요금이 거래를 처리하기에 충분하지 않을 수 있습니다.\n\n 해결 방법:\n 거래가 보류 중인 경우 다음으로 변경하여 수동으로 거래를 가속화하는 것이 가장 좋습니다. 거래를 강제로 완료하기 위해 원하는 가스 값. 지갑을 통해 가능합니다. 추가 가스 요금을 지불할 수 있습니다.\n\n계속 도움이 필요하면 언제든지 티켓을 제출하거나 Telegram <a href='https://t.me/RubicSupportBot' target을 통해 지원팀에 문의하세요. ='_blank'>https://t.me/RubicSupportBot</a>"
       },
       {
-        "title": "Why do I get the “Insufficient Balance” error?",
-        "answer": "If you swap a native token and you encounter this error it means that you are trying to send all of your transferable funds out, without leaving enough balance for the transaction fees. If you transfer a non-native token, a value exceeding the available balance has been entered in the “Amount” field. \nAlso, please check that you have connected the proper wallet and you have enough tokens for the swap.\nThe fee is shown on the transfer screen before you confirm the transfer. Deduct this amount from the total amount you're sending out, and your transfer will go through."
+        "title": "잔액 부족 오류가 발생하는 이유는 무엇입니까?",
+        "answer": "기본 토큰을 교환할 때 이 오류가 발생하면 거래 수수료에 대한 충분한 잔액을 남기지 않고 양도 가능한 모든 자금을 보내려고 함을 의미합니다. non-native 토큰을 양도하는 경우 Amount 필드에 사용 가능한 잔액을 초과하는 값이 입력됩니다. \n또한, 올바른 지갑을 연결했는지, 스왑을 위한 충분한 토큰이 있는지 확인하십시오.\n이체를 확인하기 전에 수수료가 이체 화면에 표시됩니다. 보내는 총액에서 이 금액을 빼면 송금이 완료됩니다."
       },
       {
-        "title": "What should I do if I get the “Price Impact Too High” error?",
-        "answer": "Reason:\n This error is caused by low liquidity.\n\nTry trading a smaller amount, or increase slippage tolerance via the settings icon and try again. If that did not help, then the token’s liquidity is too low to swap."
+        "title": "가격 영향이 너무 높음 오류가 발생하면 어떻게 해야 합니까?",
+        "answer": "이유:\n 이 오류는 낮은 유동성으로 인해 발생합니다.\n\n소액으로 거래를 시도하거나 설정 아이콘을 통해 미끄러짐 허용치를 높이고 다시 시도하십시오. 그래도 도움이 되지 않는다면 토큰의 유동성이 너무 낮아 교환할 수 없습니다."
       },
       {
-        "title": "What if my transaction has a “Dropped & Replaced” status on the scanner?",
-        "answer": "Dropped & Replaced\" means the transaction has been replaced by a new one.\n\n There are two possible reasons for that status:\n1. You have accelerated the transaction in your wallet and will receive the desired tokens, you can find out information about the transaction in the “Replaced by Txn Hash\" tab.\n2. You probably cancelled the transaction by mistake. The assets will not be debited from your address, but the gas fee will not be refunded back to you."
+        "title": "내 거래가 스캐너에 삭제 및 교체됨 상태인 경우 어떻게 합니까?",
+        "answer": "삭제 및 교체\"는 트랜잭션이 새 트랜잭션으로 대체되었음을 의미합니다.\n\n 해당 상태에 대한 두 가지 가능한 이유는 다음과 같습니다.\n1. 지갑에서 트랜잭션을 가속화했으며 원하는 토큰을 받게 됩니다. 다음을 찾을 수 있습니다. Replaced by Txn Hash\" 탭에서 트랜잭션에 대한 정보를 출력합니다.\n2. 실수로 거래를 취소했을 수 있습니다. 자산은 귀하의 주소에서 인출되지 않지만 가스 요금은 환불되지 않습니다."
       },
       {
-        "title": "Why did I get the ”Expired” status on the scanner?",
-        "answer": "The transaction was not mined in the time period allotted for it.\n\nIn this scenario, the transaction should be sent again. Note that during the transaction, the gas spent on its execution is burned, but not completely. A gas fee is also charged for conducting the re-sent transaction."
+        "title": "스캐너에 만료됨 상태가 표시되는 이유는 무엇입니까?",
+        "answer": "트랜잭션이 할당된 기간 내에 채굴되지 않았습니다.\n\n이 시나리오에서는 트랜잭션을 다시 보내야 합니다. 트랜잭션 중에 실행에 사용된 가스는 연소되지만 완전히 연소되지는 않습니다. 재전송 거래를 수행하는 데에도 가스 요금이 부과됩니다."
       },
       {
-        "title": "Why do I get “Warning! Error Encountered During Contract Execution [Out of Gas]”?",
-        "answer": "Reason:\n There was not enough gas for the transaction.\n\n This scanner error means the gas limit you set was above the minimum but still not sufficient to get the transaction to execute. Please try again with a higher gas limit. Also, we recommend not to change the gas limit manually, your wallet will set the needed amount automatically."
+        "title": "경고! [가스 부족] 계약 실행 중 오류가 발생했습니까?",
+        "answer": "이유:\n 트랜잭션을 위한 가스가 충분하지 않습니다.\n\n 이 스캐너 오류는 설정한 가스 한도가 최소값을 초과했지만 트랜잭션을 실행하기에는 여전히 충분하지 않음을 의미합니다. 더 높은 가스 제한으로 다시 시도하십시오. 또한 가스 한도를 수동으로 변경하지 않는 것이 좋습니다. 지갑에서 필요한 금액을 자동으로 설정합니다."
       },
       {
-        "title": "Why do I have a long-lasting “Pending” status of a Multi-Chain transaction?",
-        "answer": "Presumably, gas prices increased dramatically during that time. \nIf the above methods did not help, please contact our support team via chat on the website or Telegram: <a href='https://t.me/RubicSupportBot' target='_blank'>https://t.me/RubicSupportBot</a>."
+        "title": "왜 멀티체인 거래의 보류 상태가 오래 지속됩니까?",
+        "answer": "아마도 그 기간 동안 가스 가격이 급격히 상승했을 것입니다. \n위의 방법이 도움이 되지 않으면 웹사이트 또는 텔레그램의 채팅을 통해 지원 팀에 문의하십시오. <a href='https://t.me/RubicSupportBot' target='_blank'>https://t.me /RubicSupportBot</a>."
       },
       {
-        "title": "Why can't I do the multi-chain swap?",
-        "answer": "Unfortunately, we don’t support tokens with an included fee to sell via multi-chain routing. We are working on implementing this feature.\n For now we suggest you to sell these types of tokens for stable or native coins via on-chain swap and then do the multi-chain swap with the token you have bought.",
+        "title": "다중 체인 스왑을 수행할 수 없는 이유는 무엇입니까?",
+        "answer": "불행히도, 우리는 다중 체인 라우팅을 통한 판매 수수료가 포함된 토큰을 지원하지 않습니다. 우리는 이 기능을 구현하기 위해 노력하고 있습니다.\n 현재로서는 온체인 스왑을 통해 이러한 유형의 토큰을 스테이블 또는 네이티브 코인으로 판매한 다음 구매한 토큰으로 다중 체인 스왑을 수행하는 것이 좋습니다.",
         "id": "unsupportedTokenCCR"
       },
       {
-        "title": "Why do I get Method Execution Error: Error: Internal JSON-RPC error.",
-        "answer": "Temporal malfunction of the RPC used in the wallet for the chosen network. \nIf this error occurs, the transaction has not been sent and the money will not be debited from your wallet. ;\n Try sending your transaction again. If the problem still exists, try these steps:\n 1. Clear cache;\n 2. Increase slippage;\n 3. Increase gas limit.",
+        "title": "메서드 실행 오류: 오류: 내부 JSON-RPC 오류가 발생하는 이유는 무엇입니까?",
+        "answer": "선택한 네트워크의 지갑에서 사용되는 RPC의 일시적인 오작동. \n이 오류가 발생하면 거래가 전송되지 않았으며 지갑에서 돈이 인출되지 않습니다. ;\n 거래를 다시 보내십시오. 문제가 계속되면 다음 단계를 시도하십시오.\n 1. 캐시 지우기,\n 2. 슬리피지 증가,\n 3. 가스 한도 증가.",
         "id": "rpcError"
       },
       {
-        "title": "Rubic Autorefund Policy.",
-        "answer": "RUBIC의 팀은 USDC 토큰으로 환불을 완료합니다. 환불 금액은 거래가 시작된 순간의 USD 토큰 금액과 동일합니다. 환불은 대상 네트워크에서 완료됩니다.\n\n루빅의 자동 환불 시스템에 대한 자세한 내용은 링크를 참<a href='https://docs.rubic.finance/multi-chain-protocol/rubic-auto-refund-policy' target='_blank' rel='noopener noreferrer'>조하세요</a>."
+        "title": "Rubic Autorefund Policy에서 제공하는 Kishu Swap x.",
+        "answer": "Rubic 팀은 USDC 토큰으로 환불을 완료합니다. 환불 금액은 거래가 시작된 시점의 USD 토큰 금액과 동일합니다. 환불은 대상 네트워크에서 완료됩니다. \n\n<a href='https://docs.rubic.finance/multi-chain-protocol/rubic-auto-refund-policy' target=을 사용하여 Rubic의 자동 환불 시스템에 대한 자세한 정보를 찾을 수 있습니다. '_blank' rel='noopener noreferrer'>링크</a>."
       }
     ]
   },
@@ -256,7 +256,7 @@
     "title": "Swap assets in 1 click",
     "gasFeeMessage": "예상 가스 수수료. 거래를 완료하려면 메타마스크에 더 많은 가스를 제공해야 하며, 거래가 완료된 후 추가 가스가 반환됩니다.",
     "gasFee": "예상 가스 수수료",
-    "useOptimization": "Rubic 최적화 사용",
+    "useOptimization": "Kishu Swap X 최적화 사용",
     "notAvailableBefore": "거래 ",
     "notAvailableAfter": " 사용할 수 없습니다."
   },
@@ -295,13 +295,13 @@
       },
       "2": {
         "label": "Avalanche 가스 요금 환불",
-        "description": "Avalanche 네트워크에서 Rubic Multi-Chain 라우팅 출시를 축하하기 위해 우리 프로젝트는 새로운 Gas Refund Campaign을 시작합니다! 10월 19일부터 11월 2일까지 사용자는 좋아하는 토큰을 사용하여 스왑을 완료할 수 있습니다. Rubic Multi-Chain Routing을 사용하여 Avalanche 네트워크에서 GAS 환불을 받으세요."
+        "description": "Avalanche 네트워크에서 Kishu Swap X Multi-Chain 라우팅 출시를 축하하기 위해 우리 프로젝트는 새로운 Gas Refund Campaign을 시작합니다! 10월 19일부터 11월 2일까지 사용자는 좋아하는 토큰을 사용하여 스왑을 완료할 수 있습니다. Kishu Swap X Multi-Chain Routing을 사용하여 Avalanche 네트워크에서 GAS 환불을 받으세요."
       }
     },
     "notifications": {
       "progress": {
         "label": "가스 환불 진행 중",
-        "message": "Rubic은 가스 환불을 완료하고 있습니다. 완료될 때까지 기다려주세요"
+        "message": "Kishu Swap X 가스 환불을 완료하고 있습니다. 완료될 때까지 기다려주세요"
       },
       "complete": {
         "label": "가스 환불 완료!",
@@ -445,7 +445,7 @@
   "modals": {
     "confirmImportModal": {
       "title": "가져 오기를 확인하세요!",
-      "text": "이 토큰은 Rubic.exchange에 등록되지 않았습니다.\n맞춤 토큰으로 추가하면 자신의 책임하에 거래하고 있음을 확인하게됩니다."
+      "text": "이 토큰은 Kishu Swap X에 등록되지 않았습니다.\n맞춤 토큰으로 추가하면 자신의 책임하에 거래하고 있음을 확인하게됩니다."
     },
     "bridge": {
       "receiveWarning": "This bridge consists of two transactions. If you initiate the transaction, you will not be able to cancel it.",
@@ -479,7 +479,7 @@
       "pageSoon": " 내 거래.",
       "title": "The transaction was successfully sent!",
       "ccrTitle": "Successful swap in source network!",
-      "seeDetailsCCR": " If your transaction seems to be taking longer than normal (more than 30 minutes), please contact our Support Team at <a class='modal__footer-link' href='mailto:support@rubic.exchange' target='_blank'>support@rubic.exchange</a>",
+      "seeDetailsCCR": " If your transaction seems to be taking longer than normal (more than 30 minutes), please contact our Support Team at <a class='modal__footer-link' href='mailto:woof@kishu.com' target='_blank'>woof@kishu.com</a>",
       "seeDetailsItBridge": "See transaction <a class='modal__footer-link' href='{{explorerLink}}' target='_blank'>details</a>.",
       "link": "My Trades"
     },
@@ -501,8 +501,8 @@
       "slippage": "가격이 입력 된 비율 이상으로 불리하게 변경되면 거래가 취소됩니다 (낮은 비율은 트랜잭션이 전면 실행될 가능성을 줄입니다).",
       "multihopsTitle": "멀티 홉 비활성화",
       "multihops": "스왑은 직접 쌍으로 만 완료됩니다.",
-      "rubicOptimisationTitle": "Rubic 최적화 사용",
-      "rubicOptimisation": "Rubic 최적화는 기본적으로 활성화되어 있습니다. 그러나 가스 비용을 고려하지 않고 최적의 무역 경로가 실행되도록 비활성화 할 수 있습니다.",
+      "rubicOptimisationTitle": "Kishu Swap X 최적화 사용",
+      "rubicOptimisation": "Kishu Swap X 최적화는 기본적으로 활성화되어 있습니다. 그러나 가스 비용을 고려하지 않고 최적의 무역 경로가 실행되도록 비활성화 할 수 있습니다.",
       "deadlineTitle": "거래 기한",
       "deadline": "거래가이 기간 이상 보류중인 경우 거래가 취소됩니다.",
       "showReceiverAddressTitle": "Show Receiver Address",
@@ -564,12 +564,12 @@
   },
   "banner": {
     "trading": {
-      "defaultText": "Rubic Multi-Chain이 출시되었습니다! Ethereum, BSC, Polygon, Avalanche, MoonRiver 및 Fantom 에서 10,000개의 토큰을 교환하십시오.",
+      "defaultText": "Kishu Swap X Multi-Chain이 출시되었습니다! Ethereum, BSC, Polygon, Avalanche, MoonRiver 및 Fantom 에서 10,000개의 토큰을 교환하십시오.",
       "customText": "Fantom는 이제 멀티체인 및 온체인 스왑에 사용할 수 있습니다.",
       "link": "더 알아보기!"
     },
     "external": {
-      "text": "Complete a Cross-Chain swap to ETH on Arbitrum and get a free NFT. Become a part of Arbitrum Odyssey with Rubic!"
+      "text": "Complete a Cross-Chain swap to ETH on Arbitrum and get a free NFT. Become a part of Arbitrum Odyssey with Kishu Swap X!"
     },
     "zeroFees": {
       "zeroFee": "Cross-Chain Swaps with 0% Protocol Fee",
@@ -607,8 +607,12 @@
     "openMobileWallet": "Please, open mobile wallet application to sign transaction"
   },
   "buyTokens": {
-    "default": "RBC 구매",
-    "custom": "FTM 구매"
+    "default": "$KISHU 구매",
+    "custom": "KISHU 구매"
+  },
+  "kishuverse": {
+    "default": "Mint Kishuverse",
+    "custom": "Mint KV"
   },
   "blockchainSwap": {
     "to": "에"

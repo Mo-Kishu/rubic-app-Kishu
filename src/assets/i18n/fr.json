@@ -13,7 +13,7 @@
     "copy": "Copier",
     "accept": "Accepter",
     "copyright": "Copyright",
-    "privacyPolicy": "Politique de confidentialité",
+    "privacyPolicy": "Rubic Politique de confidentialité",
     "close": "Fermer",
     "send": "Envoyer",
     "left": "Restant",
@@ -58,7 +58,7 @@
     "walletlinkWrongNetwork": "Veuillez vous assurer que le réseau {{ networkToChoose }} est sélectionné dans l'application Coinbase. Pour changer de réseau dans l'application Coinbase, accédez aux paramètres dans le panneau inférieur et sélectionnez l'onglet \"Réseau actif\".",
     "noWallet": "Vous n'avez pas connecté de portefeuille. Pour utiliser pleinement nos fonctionnalités, vous devez en connecter un.",
     "retrievingTokensError": "Erreur lors de la récupération des jetons",
-    "wrongToken": "Le bridge Rubic ne prend en charge que le jeton Rubic.",
+    "wrongToken": "Le bridge Kishu Swap X ne prend en charge que le jeton Kishu Swap X.",
     "oneInchQuote": "Erreur de cotation de 1inch",
     "notSupportedNetwork": "{{networkToChoose}} n'est pas supporté par le portefeuille sélectionné.",
     "signReject": "Vous avez refusé la connexion avec votre portefeuille. Veuillez confirmer la connexion avec votre portefeuille afin d'utiliser pleinement notre application.",
@@ -79,10 +79,10 @@
     "maximumAmount": "Le montant maximum est de  ≈{{amount}} {{token}}",
     "maxGasPriceOverflow": "Le prix du gaz sur {{toBlockchain}} est trop élevé. Veuillez réessayer plus tard.",
     "crossChainIsUnavailable": "Les échanges Cross-Chain sont actuellement indisponibles. Veuillez réessayer plus tard.",
-    "multichainWallet": "Rubic ne prend pas encore en charge les portefeuilles multi-chaînes. Actuellement, vous ne pouvez échanger que sur le réseau Ethereum",
+    "multichainWallet": "Kishu Swap X ne prend pas encore en charge les portefeuilles multi-chaînes. Actuellement, vous ne pouvez échanger que sur le réseau Ethereum",
     "unknown": "Oups, quelque chose s'est mal passé, veuillez réessayer",
     "insufficientFoundsGasPriceValue": "Montant pour les frais de gaz insuffisants. Veuillez recharger en {{ nativeToken }}.",
-    "rubicOptimisation": "Liquidité insuffisante pour cet échange. Essayez en désactivant le routage optimisé Rubic.",
+    "rubicOptimisation": "Liquidité insuffisante pour cet échange. Essayez en désactivant le routage optimisé Kishu Swap X.",
     "partialTradesData": "Impossible de récupérer les données de transactions du serveur. Veuillez recharger la page ou contacter le support si le problème persiste.",
     "tradingIsNotAvailable": "Échanges non disponibles",
     "wrongWallet": "Veuillez vous identifier avec un portefeuille compatible avec le réseau {{network}}",
@@ -93,7 +93,7 @@
     "buttonLink": "En savoir plus",
     "wrongPromoterWallet": "Vous avez connecté un portefeuille qui n'est pas compatible avec Ethereum. Veuillez vous déconnecter de votre compte et connecter un portefeuille compatible Ethereum (par exemple, MetaMask).",
     "walletNotInstalled": "Le portefeuille n'est pas installé.",
-    "notWhitelistedProvider": "Malheureusement, cet échange utilisant le fournisseur calculé n'est actuellement pas disponible. Rubic recalculera l'itinéraire pour votre swap.",
+    "notWhitelistedProvider": "Malheureusement, cet échange utilisant le fournisseur calculé n'est actuellement pas disponible. Kishu Swap X recalculera l'itinéraire pour votre swap.",
     "noSelectedToken": "Sélectionnez le token",
     "wrongSourceNetwork": "Les swaps du réseau {{ network ]} ne sont actuellement pas pris en charge."
   },
@@ -169,7 +169,7 @@
       }
     },
     "contract": {
-      "title": "Contrat Rubic"
+      "title": "Contrat Kishu Swap X"
     },
     "roadmap": {
       "title": "Feuille de route",
@@ -253,7 +253,7 @@
           "month": "Septembre",
           "done": "1",
           "data": [
-            "Début du développement du Cross-Chain Rubic 2.0, améliorant la stabilité et la décentralisation",
+            "Début du développement du Cross-Chain Kishu Swap X 2.0, améliorant la stabilité et la décentralisation",
             "Livraison du système de remboursement automatique",
             "Création d'un support 24/7 pour notre communauté",
             "Début d'intégration d'une nouvelle blockchain",
@@ -268,7 +268,7 @@
           "done": "1",
           "data": [
             "Intégration de 0x et réduction des frais de gaz",
-            "Trois nouvelles blockchains intégrées (Compatible avec le Cross-Chain Rubic) parmis : Avalanche (AVAX), Cardano (ADA), Cosmos (ATOM), Polkadot (DOT), Kusama (KSM), Fantom (FTM), Elrond (EGLD), Enjin (ENJ), Pulse chain (ticker PLS), Optimism, Arbitrum",
+            "Trois nouvelles blockchains intégrées (Compatible avec le Cross-Chain Kishu Swap X) parmis : Avalanche (AVAX), Cardano (ADA), Cosmos (ATOM), Polkadot (DOT), Kusama (KSM), Fantom (FTM), Elrond (EGLD), Enjin (ENJ), Pulse chain (ticker PLS), Optimism, Arbitrum",
             "Stacking RBC",
             "Widget : Livraison du SDK/API"
           ]
@@ -280,7 +280,7 @@
           "data": [
             "Intégration de Yield Farming et/ou Lending Product",
             "Gouvernance",
-            "Intégration de 3-6 blockchains (Compatible avec le Cross-Chain Rubic)",
+            "Intégration de 3-6 blockchains (Compatible avec le Cross-Chain Kishu Swap X)",
             "RBC Staking 2.0",
             "Version mobile (iOS, Android)",
             "Intégration du bridge BTC"
@@ -291,6 +291,7 @@
   },
   "faqPage": {
     "title": "FAQ"
+    
   },
   "promotionPage": {
     "common": {
@@ -342,7 +343,7 @@
       "platformFeeHint": "Frais de commission de la plateforme en jetons RBC"
     },
     "smartRouting": {
-      "save": "Économisez {{amount}}$ avec le routage intelligent Rubic",
+      "save": "Économisez {{amount}}$ avec le routage intelligent Kishu Swap X",
       "estTime": "Délai estimé ~ 80 sec",
       "estTimeMobile": " ~ 80 sec"
     },
@@ -359,7 +360,7 @@
     "title": "Échangez vos jetons en un clic",
     "gasFeeMessage": "Estimation des frais de gaz. Il sera nécessaire de fournir plus de gaz dans MetaMask pour terminer l'échange, le gaz supplémentaire sera restitué une fois la transaction terminée.",
     "gasFee": "Estimation du gaz",
-    "useOptimization": "Utiliser le routage optimisé Rubic",
+    "useOptimization": "Utiliser le routage optimisé Kishu Swap X",
     "notAvailableBefore": "Échangez sur ",
     "notAvailableAfter": " n'est pas disponible."
   },
@@ -398,7 +399,7 @@
       },
       "2": {
         "label": "Remboursement du gaz d'Avalanche",
-        "description": "Pour célébrer le lancement du routage optimisé Rubic multi-chaînes\n sur le réseau Avalanche, nous lançons une nouvelle campagne de remboursement de gaz ! Du 19 octobre au 2 novembre, nos utilisateurs pourront effectuer un échange en utilisant leurs jetons préférés sur le réseau Avalanche en utilisant le routage optimisé Rubic multi-chaînes et se faire rembourser leur gaz."
+        "description": "Pour célébrer le lancement du routage optimisé Kishu Swap X multi-chaînes\n sur le réseau Avalanche, nous lançons une nouvelle campagne de remboursement de gaz ! Du 19 octobre au 2 novembre, nos utilisateurs pourront effectuer un échange en utilisant leurs jetons préférés sur le réseau Avalanche en utilisant le routage optimisé Rubic multi-chaînes et se faire rembourser leur gaz."
       }
     },
     "notifications": {
@@ -408,7 +409,7 @@
       },
       "complete": {
         "label": "Le remboursement du gaz est terminé !",
-        "message": "Le remboursement du gaz est terminé ! Merci d'avoir utilisé Rubic"
+        "message": "Le remboursement du gaz est terminé ! Merci d'avoir utilisé Kishu Swap X"
       }
     }
   },
@@ -548,7 +549,7 @@
   "modals": {
     "confirmImportModal": {
       "title": "Veuillez confirmer votre import !",
-      "text": "Ce jeton n'est pas listé sur rubic.exchange.\nEn l'ajoutant en tant que jeton personnalisé, vous confirmez que vous acceptez de trader ce jeton à vos risques et périls"
+      "text": "Ce jeton n'est pas listé sur Kishu Swap X\nEn l'ajoutant en tant que jeton personnalisé, vous confirmez que vous acceptez de trader ce jeton à vos risques et périls"
     },
     "bridge": {
       "receiveWarning": "Ce bridge consiste en deux transactions. Si vous initiez la transaction, vous ne pourrez pas l'annuler.",
@@ -582,7 +583,7 @@
       "pageSoon": " .",
       "title": "La transaction a été envoyée avec succès !",
       "ccrTitle": "Échange sur le réseau d'origine effectué !",
-      "seeDetailsCCR": " If your transaction seems to be taking longer than normal (more than 30 minutes), please contact our Support Team at <a class='modal__footer-link' href='mailto:support@rubic.exchange' target='_blank'>support@rubic.exchange</a>",
+      "seeDetailsCCR": " If your transaction seems to be taking longer than normal (more than 30 minutes), please contact our Support Team at <a class='modal__footer-link' href='mailto:woof@kishu.com' target='_blank'>woof@kishu.com</a>",
       "seeDetailsItBridge": "Voir les <a class='modal__footer-link' href='{{explorerLink}}' target='_blank'>details</a> de la transaction.",
       "link": "Mes échanges"
     },
@@ -604,8 +605,8 @@
       "slippage": "Votre transaction sera annulée si le prix change défavorablement davantage que le pourcentage saisi. (Un pourcentage inférieur diminue les chances que votre transaction soit devancée par la technique du front-run)",
       "multihopsTitle": "Désactiver les multisauts",
       "multihops": "Votre échange ne sera complété qu'avec des paires directes.",
-      "rubicOptimisationTitle": "Activer le routage optimisé Rubic",
-      "rubicOptimisation": "Le routage optimisé Rubic est activé par défaut. Cependant, vous pouvez le désactiver, la route commerciale optimale sera alors exécutée, mais sans tenir compte du coût du gaz.",
+      "rubicOptimisationTitle": "Activer le routage optimisé Kishu Swap X",
+      "rubicOptimisation": "Le routage optimisé Kishu Swap X est activé par défaut. Cependant, vous pouvez le désactiver, la route commerciale optimale sera alors exécutée, mais sans tenir compte du coût du gaz.",
       "deadlineTitle": "Délai de transaction",
       "deadline": "Votre transaction sera annulée si le délai d'attente dépasse cette durée.",
       "showReceiverAddressTitle": "Show Receiver Address",
@@ -672,7 +673,7 @@
       "link": "Essayer maintenant !"
     },
     "external": {
-      "text": "Complete a Cross-Chain swap to ETH on Arbitrum and get a free NFT. Become a part of Arbitrum Odyssey with Rubic!",
+      "text": "Complete a Cross-Chain swap to ETH on Arbitrum and get a free NFT. Become a part of Arbitrum Odyssey with Kishu Swap X!",
       "link": "lien"
     },
     "zeroFees": {
@@ -711,8 +712,12 @@
     "openMobileWallet": "Veuillez signer la transaction dans votre portefeuille"
   },
   "buyTokens": {
-    "default": "Acheter RBC",
-    "custom": "Acheter FTM"
+    "default": "Acheter $KISHU",
+    "custom": "Acheter KISHU"
+  },
+  "kishuverse": {
+    "default": "Mint Kishuverse",
+    "custom": "Mint KV"
   },
   "blockchainSwap": {
     "to": "to"

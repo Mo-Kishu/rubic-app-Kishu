@@ -81,8 +81,8 @@ export class BuyTokenComponent {
       },
       to: {
         blockchain: BLOCKCHAIN_NAME.ETHEREUM,
-        address: '0xa4eed63db85311e22df4473f87ccfc3dadcfa3e3',
-        symbol: 'RBC'
+        address: '0xa2b4c0af19cc16a6cfacce81f192b024d625817d',
+        symbol: 'KISHU'
       }
     };
   }
